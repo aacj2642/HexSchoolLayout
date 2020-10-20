@@ -121,8 +121,10 @@ hr {
 }
 
 .full-bar {
+	color: #FFFFFF;
 	background-color: #415165;
 	padding-bottom: 16px;
+	padding-top: 24px;
 }
 
 .skill-item {
@@ -130,14 +132,11 @@ hr {
 }
 
 .skill-title {
-	color: #FFFFFF;
 	line-height: 45px;
-	width: 161px;
-	padding-top: 16px;
+	text-align: center;
 }
 
 .skill-title .skill-title-ch {
-	color: #FFFFFF;
 	font-size: 32px;
 	margin-right: 16px;
 	/* Noto Sans ragular */
@@ -158,7 +157,6 @@ hr {
 	margin-bottom: 40px;
 	height: 1px;
 }
-
 
 .skill-list {
 	width: 208px;
@@ -187,20 +185,16 @@ hr {
 	height: 90px;
 }
 
-
 .footer-item {
 	margin: 0 auto;
 }
 
 .footer-title {
-	color: #FFFFFF;
 	line-height: 45px;
-	padding-top: 24px;
-	width: 362px;
+	text-align: center;
 }
 
 .footer-title .footer-title-ch {
-	color: #FFFFFF;
 	font-size: 32px;
 	margin-right: 16px;
 	/* Noto Sans ragular */
@@ -223,7 +217,6 @@ hr {
 }
 
 .footer-item {
-	color: white;
 	font-size: 24px;
 	line-height: 33px;
 	margin-bottom: 16px;
