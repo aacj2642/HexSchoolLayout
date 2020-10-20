@@ -163,7 +163,9 @@ hr {
 	margin: 0 auto;
 	margin-top: 24px;
 	padding-left: 24px;
-	border-left: 1px solid #96A9C4;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #96A9C4;
 	width: 192px;
 }
 
@@ -187,7 +189,9 @@ hr {
 .work ul {
 	margin-left: 24px;
 	padding-left: 24px;
-	border-left: 1px solid #96A9C4;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #96A9C4;
 }
 
 .work ul li {
