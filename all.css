@@ -50,9 +50,11 @@ table {
 .user-name {
 	padding-top: 47px;
 	font-size: 80px;
+	line-height: 94px;
 	/* Roboto ragular */
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
+	margin-bottom: 17px;
 }
 
 hr {
@@ -81,7 +83,7 @@ hr {
 }
 
 .title {
-	line-height: 45px;
+	line-height: 43px;
 }
 
 .title .title-ch {
