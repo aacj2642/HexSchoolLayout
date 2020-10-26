@@ -42,8 +42,6 @@ body {
     line-height: 42px;
     text-align: center;
     font-weight: 700;
-    min-width: 1480px;
-    max-width: 1920px;
 }
 
 h1 {
@@ -64,12 +62,11 @@ h2 {
 .banner {
     background-image: url("image/banner.png");
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top;
-    background-position: top;
+    background-size: cover;
+    background-position: center;
     color: white;
-    height: 0;
-    padding-bottom: 49.58%;
+    height: 958px;
+    min-width: 1200px;
 }
 
 .container {
