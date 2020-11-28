@@ -1,0 +1,266 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css reset */
+
+body{
+	overflow-x: hidden;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.name-title {
+	padding-top: 47px;
+	line-height: 94px;
+	font-size: 80px;
+	margin-bottom: 17px;
+	/* Roboto ragular */
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+hr {
+	border: 0;
+}
+
+.name-title-hr {
+	background-color: black;
+	height: 2px;
+}
+
+.photo {
+	padding-top: 48px;
+	padding-bottom: 48px;
+	width: 324px;
+	height: 324px;
+}
+
+.profile {
+	/* Noto Sans ragular */
+	font-family: source-han-sans-traditional, sans-serif;
+	font-weight: 400;
+	margin-right: 16px;
+	padding-bottom: 48px;
+}
+
+.title {
+	line-height: 43px;
+	font-size: 32px;
+}
+
+.title-en {
+	margin-left: 16px;
+	font-size: 24px;
+	color: #A00404;
+	/* Roboto medium */
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+.title-hr {
+	background-color: black;
+	height: 1px;
+	margin-top: 8px;
+	margin-bottom: 16px;
+}
+
+.profile p {
+	line-height: 36px;
+	font-size: 24px;
+	margin-bottom: 24px;
+}
+
+.education {
+	/* Noto Sans ragular */
+	font-family: source-han-sans-traditional, sans-serif;
+	font-weight: 400;
+	margin-right: 16px;
+	padding-bottom: 48px;
+}
+
+.education ul li {
+	line-height: 36px;
+	font-size: 24px;
+	margin-bottom: 24px;
+}
+
+.full-bar {
+	background-color: #415165;
+	color: #FFFFFF;
+	padding-top: 24px;
+	padding-bottom: 4px;
+}
+
+.skill {
+	margin-bottom: 82px;
+}
+
+.skill-title {
+	text-align: center;
+}
+
+.skill-title-ch {
+	line-height: 45px;
+	font-size: 32px;
+	margin-right: 16px;
+	font-family: PingFang-TC-Medium, source-han-sans-traditional, sans-serif;
+	font-weight: 400;
+}
+
+.skill-title-en {
+	font-size: 24px;
+	/* Roboto medium */
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+.skill-hr {
+	background-color: white;
+	height: 1px;
+	margin-bottom: 16px;
+	width: 996px;
+}
+
+.skill-list {
+	margin: 0 auto;
+	margin-top: 24px;
+	padding-left: 24px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #96A9C4;
+	width: 192px;
+}
+
+.skill-list li {
+	text-align: left;
+	line-height: 36px;
+	font-size: 24px;
+	margin-bottom: 20px;
+	/* Roboto light */
+	font-family: 'Roboto', PingFangTC-light, sans-serif;
+	font-weight: 300;
+}
+
+.work {
+	margin-bottom: 72px;
+	/* Noto Sans ragular */
+	font-family: source-han-sans-traditional, sans-serif;
+	font-weight: 400;
+}
+
+.work ul {
+	margin-left: 24px;
+	padding-left: 24px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #96A9C4;
+}
+
+.work ul li {
+	line-height: 36px;
+	font-size: 24px;
+	margin-bottom: 24px;
+}
+
+.work ul li p {
+	line-height: 30px;
+	font-size: 20px;
+	margin-bottom: 24px;
+	width: 639px;
+}
+
+.work img {
+	display: block;
+	width: 90px;
+	height: 90px;
+	margin-top: -24px;
+	margin-bottom: -24px;
+}
+
+.footer-title {
+	text-align: center;
+}
+
+.footer-title-ch {
+	line-height: 43px;
+	font-size: 32px;
+	margin-right: 16px;
+	font-family: PingFang-TC-Medium, source-han-sans-traditional, sans-serif;
+	font-weight: 400;
+}
+
+.footer-title-en {
+	font-size: 24px;
+	/* Roboto medium */
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+.footer-hr {
+	background-color: white;
+	height: 1px;
+	margin-bottom: 32px;
+}
+
+.footer ul li {
+	text-align: center;
+	line-height: 36px;
+	font-size: 24px;
+	margin-bottom: 16px;
+	/* Roboto light */
+	font-family: 'Roboto', PingFangTC-light, sans-serif;
+	font-weight: 300;
+}
+
+.social-images {
+	text-align: center;
+	margin-bottom: 36px;
+}
+
+.social-images img {
+	width: 48px;
+	height: 48px;
+	margin-right: 24px;
+}
