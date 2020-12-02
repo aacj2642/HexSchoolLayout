@@ -1,0 +1,118 @@
+.banner {
+  background-image: url("/assets/images/banner.png");
+  height: 840px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner-title {
+  font-size: 64px;
+  line-height: 96px;
+}
+.banner-subtitle {
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.class-title {
+  margin-bottom: 60px;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.features {
+  background-color: #AA06010D;
+  padding-top: 64px;
+  padding-bottom: 80px;
+}
+.features-img {
+  height: 100px;
+  margin-bottom: 40px;
+}
+.features-subtitle {
+  font-size: 24px;
+  line-height: 36px;
+}
+.features-text {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.classic-product {
+  padding-top: 64px;
+  padding-bottom: 80px;
+}
+.classic-product > ul > li {
+  margin-bottom: 16px;
+}
+.classic-product-img {
+  width: 796px;
+  height: 320px;
+}
+.classic-product-svg {
+  max-width: 48px;
+  max-height: 48px;
+}
+.classic-product-text {
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.co-brand {
+  background-image: url("/assets/images/bg.png");
+  height: 743px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 64px;
+  padding-bottom: 80px;
+}
+.co-brand-block {
+  position: relative;
+}
+.co-brand-title {
+  font-size: 72px;
+  line-height: 108px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.co-brand-img {
+  position: relative;
+  width: 540px;
+  height: 472px;
+}
+.co-brand-img > img {
+  width: 540px;
+  height: 472px;
+}
+.co-brand-img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.recommend {
+  padding-top: 64px;
+  padding-bottom: 48px;
+}
+.recommend-card > img {
+  width: 100%;
+}
+.recommend-card-content {
+  padding: 16px;
+}
+.recommend-name {
+  font-size: 14px;
+  line-height: 21px;
+}
+.recommend-info {
+  font-size: 16px;
+  line-height: 24px;
+}
