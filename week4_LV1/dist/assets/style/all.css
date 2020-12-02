@@ -8793,7 +8793,7 @@ a:hover {
     background-color: #650300; }
 
 .banner {
-  background-image: url("/assets/images/banner.png");
+  background-image: url("../../assets/images/banner.png");
   height: 840px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8840,7 +8840,7 @@ a:hover {
     line-height: 72px; }
 
 .co-brand {
-  background-image: url("/assets/images/bg.png");
+  background-image: url("../../assets/images/bg.png");
   height: 743px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8914,7 +8914,7 @@ a:hover {
   height: 54px; }
 
 .q-banner {
-  background-image: url("/assets/images/qa.png");
+  background-image: url("../../assets/images/qa.png");
   height: 304px;
   background-repeat: no-repeat;
   background-size: cover;
