@@ -1,0 +1,143 @@
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.noto-regular {
+    font-family: source-han-sans-traditional, sans-serif;
+    font-weight: 400;
+}
+
+.noto-bold {
+    font-family: source-han-sans-traditional, sans-serif;
+    font-weight: 700;
+}
+
+.roboto-regular {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.roboto-medium {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.roboto-bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.roboto-black{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+
+.header {
+    background-color: $primary;
+    padding: 30px 88px 30px 88px;
+
+    &>ul {
+        margin-bottom: 0;
+
+        &>li {
+            margin-left: 64px;
+
+            &>a {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.footer {
+    background-color: $primary;
+    padding: 36px 0 30px 0;
+
+    &>ul {
+        margin-bottom: 0;
+
+        &>li {
+            margin-left: 64px;
+        }
+    }
+
+    &-link {
+        font-size: 16px;
+        margin-right: 48px;
+    }
+
+
+    &-img {
+        margin-left: 32px;
+    }
+
+    &-contact {
+        border-bottom: 1px solid white;
+        padding-bottom: 20px;
+        &-text {
+
+            line-height: 54px;
+            font-size: 36px;
+        }
+
+        &-img {
+            width: 60px;
+            display: inline-block;
+        }
+    }
+
+    &-logo{
+        width: 80px;
+        height: 49px;
+        margin-right: 38px;
+    }
+
+    &-policy{
+        font-size: 14px;
+        margin-left: 62px;
+    }
+}
+
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    transition: all 0.5s;
+
+    &:hover {
+        width: 200px;
+        background-color: $secondary;
+    }
+}
+
+
+
+// .header {
+//     width: 500px;
+
+//     @include pad {
+//         width: 13px;
+//         font-size: 20px;
+//     }
+
+//     @include mobile {
+//         font-size: 8px;
+//     }
+
+//     a {
+//         background: black;
+
+//         @include mobile {
+//             background: white;
+//         }
+//     }
+// }

@@ -1,0 +1,38 @@
+.q-banner {
+    background-image: url("/assets/images/qa.png");
+    height: 304px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 80px;
+
+    &-title {
+        font-size: 64px;
+        line-height: 80px;
+        margin-bottom: 0;
+        margin-right: 24px;
+    }
+}
+
+.question{
+
+    &-title{
+        font-size: 32px;
+        line-height: 63px;
+        margin-bottom: 36px;
+    }
+
+    &-q{
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 16px;
+    }
+
+    &-a{
+        margin-right: 95px;
+        margin-left: 95px;
+        margin-bottom: 40px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

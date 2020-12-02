@@ -1,0 +1,28 @@
+$primary: #AA0601;
+$secondary: #650300;
+$border:#00000020;
+$info: #555555;
+$glass-primary:#5F3E2D;
+$glass-secondary:#B75929;
+$top-border:#DCDCDC;
+$top-color:#AA0511;
+$select-border-color:#CED4DA;
+$select-text-color:#495057;
+$select-arrow-color:#373A3C;
+$card-border:#00000020;
+$card-info-secondary:#707070;
+$page-background:#F2F2F2;
+$date-color:#6C6C6C;
+
+
+@mixin pad {
+    @media (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (max-width: 568px) {
+        @content;
+    }
+}
