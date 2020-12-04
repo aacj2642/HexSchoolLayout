@@ -1,0 +1,83 @@
+.meterial-icon-button{
+    color: black;
+    text-decoration: none;
+}
+
+.sidebar {
+    background-color: $secondary;
+    width: 296px;
+    height: 100vh;
+    padding: 32px;
+    position: fixed;
+
+    &-logo {
+        margin-bottom: 32px;
+    }
+
+    &-icon {
+        margin-right: 16px;
+    }
+    &-page {
+        margin-bottom: 26px;
+        vertical-align: middle;
+        &-select{
+            width: 4px;
+            height: 32px;
+            position: absolute;
+            left: 0;
+            background-color: $primary;
+        }
+        &-name {
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+
+    &-photo {
+        width: 40px;
+        height: 40px;
+        margin-right: 16px;
+        border-radius: 50%;
+    }
+    &-name {
+        color: #121212;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &-mail {
+        color: #0000009a;
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 24px;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.page-title{
+    font-size: 24px;
+    line-height: 33px;
+    padding-right: 47px;
+}
+
+.main-content {
+    margin-left: 296px;
+    padding: 32px;
+}
+
+.roboto-mono {
+    font-family: "Roboto Mono", monospace;
+}
+
+.lato {
+    font-family: "Lato", sans-serif;
+}
+
+.fw-r {
+    font-weight: normal;
+}
+
+.fw-b {
+    font-weight: bold;
+}
