@@ -6,4 +6,6 @@
 
 第三、四周：https://aacj2642.github.io/HexSchoolLayout/week4_LV1/dist/index.html
 
+第五周：https://aacj2642.github.io/HexSchoolLayout/week5_LV1/dist/admin.html
+
 第七周：https://aacj2642.github.io/HexSchoolLayout/week7_LV2/index.html
