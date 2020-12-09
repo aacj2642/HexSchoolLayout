@@ -9922,11 +9922,14 @@ body {
 
 .toggler-item {
   border-bottom: 1px solid white;
-  text-align: center;
-  padding: 16px 0; }
+  text-align: center; }
+  .toggler-item:hover {
+    background-color: #bebebe; }
 
 .toggler-link {
-  color: white; }
+  color: white;
+  display: block;
+  padding: 16px 0; }
   .toggler-link:hover {
     color: white; }
 
