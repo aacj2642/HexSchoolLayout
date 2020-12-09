@@ -1,0 +1,24 @@
+body {
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, PingFangTC, sans-serif;
+}
+
+.font-e {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-c {
+  font-family: PingFangTC, sans-serif;
+}
+
+@each $weight-name, $font-weight in $perfume-font-weight {
+  .fw-#{$weight-name} {
+    font-weight: $font-weight !important;
+  }
+}
+
+@each $display, $font-size in $perfume-font-sizes {
+  .fs-#{$display} {
+    font-size: $font-size !important;
+  }
+}

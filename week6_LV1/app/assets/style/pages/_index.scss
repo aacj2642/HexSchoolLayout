@@ -1,0 +1,9 @@
+.banner-index{
+    height: 480px;
+    @media (min-width:map-get($grid-breakpoints, md)){
+        height: 870px;
+    }
+    &-item{
+        background-color: #E0E0E0
+    }
+}
