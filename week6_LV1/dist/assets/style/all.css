@@ -9866,6 +9866,27 @@ body {
 .fs-7 {
   font-size: 14px !important; }
 
+.mask-img {
+  position: relative; }
+  .mask-img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3); }
+  .mask-img-text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    white-space: nowrap;
+    z-index: 1; }
+
 .number-badge {
   position: absolute;
   right: -.4rem;
@@ -9963,6 +9984,6 @@ body {
     .banner-index {
       height: 870px; } }
   .banner-index-item {
-    background-color: #E0E0E0; }
+    background-color: #e0e0e0; }
 
 /*# sourceMappingURL=all.css.map */
